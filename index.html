@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link href="bootstrap/css/scrolling-nav.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/jquery.easing.min.js"></script>
+    <script src="bootstrap/js/scrolling-nav.js"></script>
+	<script src="navbar-animation-fix.js"></script>
+
+ </head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header col-sm-6 page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toogle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand page-scroll" href="#page-top">
+							<img src="img/logoSmall2.png" alt="Max Auto Peças">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse navbar-ex1-collapse" id="collapse-navbar">
+						<ul class="nav navbar-nav" >
+							<li class="hidden">
+                        		<a class="page-scroll" href="#page-top"></a>
+                    		</li>
+                    		<li><a class="page-scroll" href="#page-top">Início</a></li>
+							<li><a class="page-scroll" href="#servicos">Serviços</a></li>
+							<li><a class="page-scroll" href="#contato">Contato</a></li>
+							<li><a class="page-scroll" href="#sobre-nos">Sobre nós</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</nav>
+		<div class="container maxauto_banner_Wrapper">
+			<div class="maxauto_banner">
+				<img class="img-responsive logomarca center-block" src="img/logo.png" alt="Max Auto Peças">
+				<h3 class="text-center">Venha conhecer nossos serviços</h3>
+				<a class="btn btn-primary btn-lg pull-right page-scroll centralizar" href="#contato">Contate-nos</a>
+			</div>
+		</div>
+	</header>
+
+<section class="container" id="servicos">
+	<br><br><br>
+	<h2>Nossos serviços</h2>
+	<div class="row">
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<figure class="thumbnail">
+				<img src="img/revisao.png" alt="loja" id="changePattern">
+				<figcaption class="caption">
+					<h3>INJEÇÃO ELETRÔNICA</h3>
+					<ul>
+					 	<li>Limpeza de bicos</li>
+					 	<li>Limpeza de borboletas</li>
+					 	<li>Diagnóstico/calibração</li>
+					 	<li>Troca de velas</li>
+					 	<li>Troca de juntas</li>
+					</ul>
+				</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<figure class="thumbnail">
+				<img src="img/freio.png" alt="loja" id="changePattern">
+				<figcaption class="caption">
+					<h3>FREIOS</h3>
+					<ul>
+					 	<li>Pastilhas</li>
+					 	<li>Cilindro de roda</li>
+					 	<li>Terminais axiais</li>
+					 	<li>Cilindro mestre</li>
+					 	<li>Servo freio</li>
+					</ul>
+				</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<figure class="thumbnail">
+				<img src="img/suspensao.png" alt="loja" id="changePattern">
+				<figcaption class="caption">
+					<h3>SUSPENSÃO</h3>
+					<ul>
+					 	<li>Amortecedores e Pivôs</li>
+					 	<li>Terminais de direção</li>
+					 	<li>Terminais axiais</li>
+					 	<li>Buxas e Coxins</li>
+					 	<li>Alinhamento</li>
+					</ul>
+				</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<figure class="thumbnail">
+				<img src="img/lubrificante.png" alt="loja" id="changePattern">
+				<figcaption class="caption">
+					<h3>LUBRIFICANTES</h3>
+					<ul>
+					 	<li>Limpeza do sistema</li>
+					 	<li>Óleos</li>
+					 	<li>Filtros de óleo e de ar</li>
+					</ul>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+</section>
+<div class="jumbotron"></div>
+<div class="container">
+	<div class="row">
+		<img class="img-responsive col-sm-6"src="img/fotos.png">
+		<section class="col-sm-6" id="contato"><br><br><br>
+			<h2>Contato</h2>
+			<p>Entre em contato conosco</p>
+			<form name="formulario" action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+				<input type=hidden name="destino" value="tharles_tec@hotmail.com">
+				<input type=hidden name="enviado" value="file:///C:/Users/Tharles/Downloads/WEB_I/WEB%20I/index.html">
+				<div class="form-group">
+					<label for="nome">Nome:</label>
+					<input class="form-control"type="text" id="nome" placeholder="Seu nome">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<div class="input-group">
+						<div class="input-group-addon">@</div>
+						<input type="email" class="form-control" id="email" placeholder="Seu email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Mensagem:</label>
+					<textarea class="form-control" rows="3" id="mensagem" placeholder="Como podemos lhe ajudar?"></textarea>
+				</div><!--
+				
+				-->
+
+				<input type="submit" class="btn btn-primary pull-right">
+			</form>
+		</section>
+		
+	</div>
+</div>
+<div class="jumbotron"></div>
+<section class="container" id="sobre-nos">
+	<div class="container">
+		<div class="row">
+			<h2>Sobre nós</h2>
+			
+			<div class="panel-group col-sm-6" id="paineis_sobre">
+				<div class="panel panel-default">
+			    	<div class="panel-heading">
+			        	<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis_sobre">MISSÃO</h3>
+			        </div>
+			        <div id="primeiro-paragrafo" class="collapse in">
+				        <div class="panel-body">
+				            <p>Ser referência no mercado potiguar de serviços e reparação automotiva, buscando a inovação, capacitação e introdução de novas tecnologias, proporcionando qualidade, garantia e satisfação aos nossos clientes. </p> 
+				        </div>
+				    </div>
+				</div>
+
+				<div class="panel panel-default">
+			    	<div class="panel-heading">
+						<h3 class="panel-title" data-toggle="collapse" data-target="#segundo_paragrafo" data-parent="#paineis_sobre">VISÃO</h3>
+					</div>
+					<div id="segundo_paragrafo" class="collapse">
+						<div class="panel-body">
+							<p>Ser reconhecida no mercado de autopeças, reparação automotiva e na sociedade Norte Rio-grandense como uma das melhores oficinas mecânicas.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+			    	<div class="panel-heading">
+						<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro_paragrafo" data-parent="#paineis_sobre">CLIENTE</h3>
+					</div>
+					<div id="terceiro_paragrafo" class="collapse">
+						<div class="panel-body">
+							<p>Acreditamos que muito mais que um simples serviço, mas um relacionamento de confiança e dedicação ao cliente, conseguiremos estreitar os laços e fazer cada cliente se tornar fiel a nós e nós a eles.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img class="img-responsive col-sm-6"src="img/loja.png">
+		</div>
+	<div>
+</section>
+
+<footer>
+	<address>
+		<strong>Max auto peças</strong><br>
+		Avenida Nascimento de Castro<br>
+		Natal - RN<br>
+		Tel(84) 9 96600998
+	</address>
+	<address>
+		tdiasdasilva@gmail.com
+	</address>
+</footer>
+
+</body>
+</html>

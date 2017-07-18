@@ -1,0 +1,92 @@
+#paineis_sobre{
+	margin-top: 20px
+}
+.titulo-depoimentos{
+	background-color: #0275D8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+	margin-bottom: 0px;
+	font-size: 22px;
+}
+.contato-select,
+.grupo-radio {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.maxauto_banner{
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	transition: .3s;
+}
+.grupo-radio .radio:first-child {
+	margin-top: 0;
+}
+html,body{
+	height: 100%;
+}
+header h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+header{
+	background-image: url(img/img2.png);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	height: 100%;
+}
+footer{
+	background-color: #333;
+	color: #FFF;
+	padding: 1em;
+	margin-top: 10px;
+}
+footer address:last-child{
+	margin-bottom: 0px;
+}
+@media(min-width: 768px){
+	#paineis_sobre{
+		margin-top: 0px;
+	}
+	/*.logomarca{
+		margin-top: 40px;
+	}*/
+}
+@media(min-width: 992px) {
+	.maxauto_banner {
+		left: 0;
+		transform: translate(0, -80%);
+		width: 50%;
+		margin-top: 10%;
+
+	}
+
+	.maxauto_banner_Wrapper {
+		position: relative;
+		height: 100%;
+
+	}
+	.centralizar{
+		margin-right: 12%
+	}
+	
+}
+.logomarca{
+		margin-top: 0px;
+		width: 80%;	
+}
+@media(max-width: 992px){
+	.centralizar{
+		margin-right: 20%
+	}
+}
+
